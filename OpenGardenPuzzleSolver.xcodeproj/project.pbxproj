@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		956025011AFB248C00244A07 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 956025001AFB248C00244A07 /* main.m */; };
+		9560250B1AFB27BB00244A07 /* PuzzleSolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 9560250A1AFB27BB00244A07 /* PuzzleSolver.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		956024FD1AFB248C00244A07 /* OpenGardenPuzzleSolver */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OpenGardenPuzzleSolver; sourceTree = BUILT_PRODUCTS_DIR; };
 		956025001AFB248C00244A07 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		956025091AFB27BB00244A07 /* PuzzleSolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PuzzleSolver.h; sourceTree = "<group>"; };
+		9560250A1AFB27BB00244A07 /* PuzzleSolver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PuzzleSolver.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				956025001AFB248C00244A07 /* main.m */,
+				956025091AFB27BB00244A07 /* PuzzleSolver.h */,
+				9560250A1AFB27BB00244A07 /* PuzzleSolver.m */,
 			);
 			path = OpenGardenPuzzleSolver;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9560250B1AFB27BB00244A07 /* PuzzleSolver.m in Sources */,
 				956025011AFB248C00244A07 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
